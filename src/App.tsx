@@ -141,9 +141,10 @@ function Sidebar({ className = "" }: { className?: string }) {
 
   return (
     <aside className={`w-64 bg-[#141414] border-r border-neutral-800 flex-col h-screen ${className}`}>
+      {/* Logo Buraya Eklendi */}
       <div className="p-6 flex items-center space-x-3">
-        <Settings className="text-amber-500" size={24} />
-        <span className="text-xl font-bold tracking-wider text-white">MAINTENANCE</span>
+        <img src="/logo.png" alt="Logo" className="w-10 h-10 rounded-xl shadow-md" />
+        <span className="text-lg font-bold tracking-wider text-white">MAINTENANCE</span>
       </div>
       <div className="px-4 py-6 border-b border-neutral-800/50">
         <div className="flex items-center space-x-3">
@@ -215,8 +216,9 @@ function MobileNav() {
 function TopNavigation() {
   return (
     <header className="sticky top-0 z-20 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-neutral-800 px-4 md:px-8 py-4 flex items-center justify-between">
+      {/* Logo Buraya Eklendi (Mobil) */}
       <div className="flex items-center md:hidden">
-        <Settings className="text-amber-500 mr-2" size={20} />
+        <img src="/logo.png" alt="Logo" className="w-8 h-8 rounded-lg mr-3 shadow-sm" />
         <span className="font-bold tracking-wider text-white">MAINTENANCE</span>
       </div>
       <div className="hidden md:flex items-center text-neutral-400 text-sm">
@@ -242,10 +244,12 @@ function LoginScreen({ onLogin }: { onLogin: (user: User) => void }) {
     <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center p-4">
       <div className="max-w-md w-full space-y-8 bg-[#141414] p-8 rounded-2xl border border-neutral-800 shadow-2xl">
         <div className="text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-amber-500/10 text-amber-500 mb-4">
-            <Settings size={32} className="animate-spin-slow" style={{ animationDuration: '4s' }} />
-          </div>
-          <h2 className="text-3xl font-bold tracking-tight text-white">MAINTENANCE</h2>
+          {/* Logo Buraya Eklendi */}
+          <img 
+            src="/logo.png" 
+            alt="Maintenance Logo" 
+            className="w-32 h-32 mx-auto rounded-[2rem] shadow-lg shadow-black/50 mb-6"
+          />
           <p className="text-neutral-500 mt-2 text-sm uppercase tracking-widest">Industrial Platform</p>
         </div>
         <div className="space-y-4 pt-6">
