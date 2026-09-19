@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   AlertTriangle, Wrench, Settings, Activity, Users, 
-  Search, Bell, Menu, X, Plus, QrCode, Camera, 
+  Search, Bell, X, Plus, QrCode,
   CheckCircle, Clock, BarChart3, ArrowRight, Play, Pause, CheckSquare,
   Thermometer, Zap, ShieldAlert, Cpu
 } from 'lucide-react';
