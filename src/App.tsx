@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   AlertTriangle, Wrench, Settings, Activity, Users, 
-  Search, Bell, X, Plus, QrCode, 
+  Search, Bell, X, Plus, QrCode,
   CheckCircle, Clock, BarChart3, ArrowRight, Play, Pause, CheckSquare,
   Thermometer, Zap, ShieldAlert, Cpu, Package, FileText, History, Wrench as WrenchIcon
 } from 'lucide-react';
